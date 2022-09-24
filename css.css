@@ -1,0 +1,117 @@
+html{
+    height: 100%;
+    width: auto;
+}
+body{
+    height: 100%;
+}
+.head{
+    text-align: center;
+    margin: 50px;
+    font-size:xx-large;
+    font-style: oblique;
+    font-weight: bolder;
+}
+.man{
+    background-color: antiquewhite;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.syt{
+    display: flex;
+    justify-content:space-between ;
+    margin: 5% 30%;
+}
+.bbb,.ooo,.ddd,.hhh{
+    background-color: antiquewhite;
+    padding: 5px 10px;
+    margin: 2px 2px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+input{
+    text-align: center;
+    width: 20%;
+    height: 25px;
+   
+}
+.cen{
+display: flex;
+position: relative;
+justify-content: center;
+margin: 10px;
+   
+}
+.in{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 30px;
+}
+.all{
+    display: none;
+    
+}
+.conv{
+    text-align: center;
+    margin: 9% 0;
+    cursor: pointer;
+}
+.cvv{
+    background-color: antiquewhite;
+    padding: 5px 10px;
+    border-radius: 10px;
+    
+}
+
+@media screen and (max-width:1091px){
+.syt{
+    display: flex;
+    justify-content:space-around ;
+    margin: 5% 1%;
+}
+input{
+    width: 30%;
+    display: flex;
+}
+}
+.no{
+    display: flex;
+   
+    justify-content: center;
+}
+.no1,.no2,.no3,.no4{
+    margin: 0 20px;
+
+}
+.fi{
+    height: 40%;
+}
+.mid{
+    
+    height: 50%;
+    text-align: center;
+    
+}
+.nn{
+    position: relative;
+    top: 100px;
+    justify-content: center;
+}
+
+footer{
+    height: 13%;
+    color: white;
+    background-color:#333;
+   text-align: center;
+   
+    padding: 20px;
+}
+.end{
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+    cursor: pointer;
+    margin: 10px 90px 20px;
+}
